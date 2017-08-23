@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2ca310af78d27391845dd2253414b447",
+    "content-hash": "1147df904607eee0e1e8552b43de2bb4",
     "packages": [],
     "packages-dev": [
         {
@@ -1159,16 +1159,16 @@
         },
         {
             "name": "joomla-projects/joomla-browser",
-            "version": "v3.7.4",
+            "version": "dev-container-test",
             "source": {
                 "type": "git",
                 "url": "https://github.com/joomla-projects/joomla-browser.git",
-                "reference": "2ba09f2d12cb4c2708101a5ffbcbb261a445cbc1"
+                "reference": "4744a89f2f27745024aba4f063e6b99eabf89c7a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/joomla-projects/joomla-browser/zipball/2ba09f2d12cb4c2708101a5ffbcbb261a445cbc1",
-                "reference": "2ba09f2d12cb4c2708101a5ffbcbb261a445cbc1",
+                "url": "https://api.github.com/repos/joomla-projects/joomla-browser/zipball/4744a89f2f27745024aba4f063e6b99eabf89c7a",
+                "reference": "4744a89f2f27745024aba4f063e6b99eabf89c7a",
                 "shasum": ""
             },
             "require": {
@@ -1176,7 +1176,7 @@
                 "php": ">=5.5.9"
             },
             "require-dev": {
-                "joomla-projects/joomla-testing-robo": "~1.0"
+                "joomla-projects/joomla-testing-robo": "dev-container-test"
             },
             "type": "library",
             "autoload": {
@@ -1206,7 +1206,7 @@
                 "acceptance testing",
                 "joomla"
             ],
-            "time": "2017-07-31T13:55:52+00:00"
+            "time": "2017-08-23T15:19:58+00:00"
         },
         {
             "name": "joomla-projects/joomla-testing",
@@ -3812,7 +3812,8 @@
     "stability-flags": {
         "joomla-projects/jorobo": 20,
         "joomla-projects/joomla-testing": 20,
-        "joomla-projects/joomla-testing-robo": 20
+        "joomla-projects/joomla-testing-robo": 20,
+        "joomla-projects/joomla-browser": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
